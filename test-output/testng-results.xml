@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36060" started-at="2020-01-30T17:09:38Z" finished-at="2020-01-30T17:10:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36060" started-at="2020-01-30T17:09:38Z" finished-at="2020-01-30T17:10:14Z">
+      <class name="com.qa.test.CheckUrlTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.CheckUrlTest@3efe7086]" name="setUp" is-config="true" duration-ms="12614" started-at="2020-01-30T22:39:41Z" finished-at="2020-01-30T22:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkUrl(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.CheckUrlTest@3efe7086]" name="checkUrl" duration-ms="4268" started-at="2020-01-30T22:39:54Z" data-provider="getData" finished-at="2020-01-30T22:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.CheckUrlTest@3efe7086]" name="tearDown" is-config="true" duration-ms="1866" started-at="2020-01-30T22:39:59Z" finished-at="2020-01-30T22:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.CheckUrlTest@3efe7086]" name="setUp" is-config="true" duration-ms="4284" started-at="2020-01-30T22:40:00Z" finished-at="2020-01-30T22:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkUrl(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.CheckUrlTest@3efe7086]" name="checkUrl" duration-ms="7548" started-at="2020-01-30T22:40:05Z" data-provider="getData" finished-at="2020-01-30T22:40:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Facebook – log in or sign up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.CheckUrlTest@3efe7086]" name="tearDown" is-config="true" duration-ms="1560" started-at="2020-01-30T22:40:12Z" finished-at="2020-01-30T22:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.CheckUrlTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
